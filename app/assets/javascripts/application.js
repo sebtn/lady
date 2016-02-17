@@ -12,9 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require jquery-ui
-//= require turbolinks
+
+
 //= require_tree .
+
+//= require jquery-ui
 
 $(function(){
     $('ul').data('type','large');
