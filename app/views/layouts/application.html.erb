@@ -23,14 +23,14 @@ $(window).load(function() {
 	});
 
 	$(window).scroll(function(){
-	    var $nav = $('ul'), time = 600;
+	    var $nav = $('ul'), time = 300;
 	    if ($('body').scrollTop() > 0) {
 	        if ($nav.data('type') == 'large') {
-	            $nav.data('type','tiny').stop().animate({ height:'0px' }, time);
+	            $nav.data('type','tiny').stop().animate({ height:'0' }, time);
 	        }
 	    } else {
 	        if ($nav.data('type') == 'tiny') {
-	            $nav.data('type','large').stop().animate({ height:'100px' }, time);
+	            $nav.data('type','large').stop().animate({ height:'85px' }, time);
 	        }  
 	    }
 });
