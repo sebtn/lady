@@ -7,6 +7,16 @@ html, body{
 
 }
 
+.hero {
+	background: url('/3.svg') no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+	margin: 0px 0px 0px 0px;
+}
+
 img {
 	opacity: 0.25;
 }
@@ -63,9 +73,7 @@ h2 {
   #bg {
   	position:relative;	    
   }
-  #music{
 
-  }
   #topnav {
 		font-size: 35px;
 	}
@@ -80,5 +88,5 @@ h2 {
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  margin-top: -10px;
+
 }
