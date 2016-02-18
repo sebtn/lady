@@ -59,7 +59,7 @@ div h2 {
 	#music { height:1000px; width:100%; background-image: url(the-lady.jpg);
 		background-size: cover;
 	}
-	#topnav {font-size: 35px;}
+	#topnav {font-size: 25px;}
 }
 
 @media screen and (min-width: 481px){
@@ -97,7 +97,6 @@ div h2 {
 .music { 
 	background-repeat:no-repeat;
 	background-position: center;
-	background-attachment: fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
