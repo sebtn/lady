@@ -3,26 +3,17 @@ html, body{
 	width: 100%;
 	margin:0;
 	padding:0;	
-
-
 }
 
-.hero {
-	background: url('/3.svg') no-repeat center center fixed;
-	background-size: cover;
-	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-
-	margin: 0px 0px 0px 0px;
-}
-
-img {
-	opacity: 0.25;
+pre {
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center bottom;
+  outline: 2px dashed black; 
+  padding: 1em; 
 }
 
 ul {
-  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -51,32 +42,34 @@ li a {
 	text-decoration: none; 
 }
 
-h2 {
-	color:#F92672
+div h2 {
+	color:#F92672;
+	font-weight:500;
+	font-size: 44px;
 }
 
-#bg { 
-	 
-	top:0;
-	left:0;
-}
-
-.bgwidth {
- width: 100%; 
-}
-
-.bgheight { 
-	height: 100%; 
-}
-
-@media screen and (max-width: 480px) {
-  #bg {
-  	position:relative;	    
-  }
-
-  #topnav {
-		font-size: 35px;
+@media screen and (min-width: 1081px){
+	pre { height: 100%; width:100%; background-image: url(3.svg);
+		background-size: cover;
+		opacity: 0.85;
 	}
+	#topnav {font-size: 65px;}
+}
+
+@media screen and (max-width: 1080px){
+	pre { height: 100%; width:100%; background-image: url(3.svg);
+		background-size: cover;
+		opacity: 0.85;
+	}
+	#topnav {font-size: 55px;}
+}
+
+@media screen and (max-width: 568px) {
+	#topnav {font-size: 35px;}
+}
+
+@media screen and (max-width: 365px) {
+	#topnav {font-size: 25px;}
 }
 
 .music { 
@@ -88,5 +81,8 @@ h2 {
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+}
 
+.clear {
+    clear:both;
 }
