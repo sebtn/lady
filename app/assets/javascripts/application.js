@@ -13,3 +13,21 @@
 //= require jquery-ui
 //= require bootstrap-sprockets
 
+$(document).ready(function() {
+    var playing = false;
+
+    $('button#btn1').click(function() {
+        $(this).toggleClass('glyphicon glyphicon-play glyphicon glyphicon-pause');
+        
+        if (playing == false) {
+            document.getElementById('myTune').play();
+            playing = true;
+
+        } else {
+
+            document.getElementById('myTune').pause();
+            playing = false;  
+                     
+        }
+    });
+});

@@ -1,5 +1,5 @@
 html, body{
-	height: 101%;
+	height: 100%;
 	width: 100%;
 	margin:0;
 	padding:0;	
@@ -7,23 +7,23 @@ html, body{
 
 pre {
 	background-repeat:no-repeat;
-	background-size:cover;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-	background-position: center bottom;
-  outline: 2px dashed black; 
+	background-position: center;
+  outline: 3px dashed black; 
   padding: 1em; 
 }
 
 ul {
+	font-family: "Courier New", Courier, monospace;
+  text-align: center;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #D3145A;
   opacity: 0.8;
   position: fixed;
-  font-size: 45px;
   top: 0;
   width: 100%;
   -webkit-box-shadow: 0 8px 6px -6px #111111;
@@ -31,17 +31,11 @@ ul {
   box-shadow: 0 8px 6px -6px #111111;
 }
 
-li {
-	font-family: "Courier New", Courier, monospace;
-  text-align: center;
-}
-
-li a {
+a {
 	display: inline-block;
 	color: #00FFFF;
 	font-weight: 300;
 	text-align: center;
-	padding: 14px 16px;
 	text-decoration: none; 
 }
 
@@ -52,59 +46,122 @@ div h2 {
 }
 
 @media screen and (max-width: 480px){
-	pre { height:100%; width:100%; background-image: url(3.svg);
+	pre  { height:100%; width:100%; background-image: url(3.svg);
 		background-size: cover;
-		opacity: 0.85;
+		opacity: 0.95;
 	}
-	#music { height:1000px; width:100%; background-image: url(the-lady.jpg);
+	#plist { height:1100px; width:100%; background-image: url(the-lady.jpg);
 		background-size: cover;
 	}
 	#topnav {font-size: 25px;}
 }
 
 @media screen and (min-width: 481px){
-	pre { height:100%; width:100%; background-image: url(3.svg);
+	pre  { height:100%; width:100%; background-image: url(3.svg);
 		background-size: cover;
-		opacity: 0.85;
+		opacity: 0.95;
 	}
-	#music { height:1000px; width:100%; background-image: url(the-lady.jpg);
+	#plist { height:1100px; width:100%; background-image: url(the-lady.jpg);
 		background-size: cover;
 	}
 	#topnav {font-size: 35px;}
 }
 @media screen and (max-width: 800px){
-	pre { height:100%; width:100%; background-image: url(3.svg);
+	pre  { height:100%; width:100%; background-image: url(3.svg);
 		background-size: cover;
-		opacity: 0.85;
+		opacity: 0.95;
 	}
-	#music { height:1000px; width:100%; background-image: url(the-lady.jpg);
+	#plist { height:1100px; width:100%; background-image: url(the-lady.jpg);
 		background-size: cover;
 	}
 	#topnav {font-size: 35px;}
 }
 
 @media screen and (min-width: 801px){
-	pre { height:100%; width:100%; background-image: url(3.svg);
+	pre  { height:100%; width:100%; background-image: url(3.svg);
+		background-size: cover;
+		opacity: 0.95;
+	}
+	#plist { height:1100px; width:100%; background-image: url(the-lady.jpg);
 		background-size: cover;
 		background-attachment: fixed;
-		opacity: 0.85;
-	}
-	#music { height:1000px; width:100%; background-image: url(the-lady.jpg);
-		background-size: cover;
 	}
 	#topnav {font-size: 55px;}
 }
 
-.music { 
+.gi-2x{font-size: 2em;}
+.gi-3x{font-size: 3em;}
+.gi-4x{font-size: 4em;}
+.gi-5x{font-size: 5em;}
+
+.glyphicon {
+	background: none;
+	border: 0px;
+
+}
+
+.glyphicon:focus {
+  outline: none;
+}
+
+#plist { 
 	background-repeat:no-repeat;
 	background-position: center;
-	background-size: cover;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  border: 3px solid black;
+  -ms-background-size:cover;
+  outline: 1px solid black;
 }
+
+section #plist {
+	-webkit-box-shadow: 0 8px 6px -6px #111111;
+  -moz-box-shadow: 0 8px 6px -6px #111111;
+  box-shadow: 0 8px 6px -6px #111111;
+  padding: 1em 1em 1em 1em;
+}
+
+.box {
+	moz-box-shadow: 1px 1px 2px 0 #000000;
+	-webkit-box-shadow: 1px 1px 2px 0 #000000;
+	box-shadow: 1px 1px 2px 0 #000000;
+	background: rgba(0, 0, 0, 0.7);
+	border-color: #000000;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	border-radius: 25px;
+	font-color: #fff;
+}
+
+#tracks .track-title {
+	font-size: 26px;
+	padding:auto;
+  color: white;
+  z-index: 5;
+}
+/*
+.row {
+
+	display:-ms-flexbox;
+	-ms-flex-pack:center;
+	-ms-flex-align:center;
+
+	display:-moz-box;
+	-moz-box-pack:center;
+	-moz-box-align:center;
+
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+
+	display:box;
+	box-pack:center;
+	box-align:center;
+}*/
+
+
 
 .clear {
     clear:both;
 }
+
