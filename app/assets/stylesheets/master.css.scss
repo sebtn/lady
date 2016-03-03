@@ -10,14 +10,13 @@ pre {
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-	background-position: center;
+	background-position: 50%;
   outline: 3px dashed black; 
   padding: 1em; 
 }
 
 ul {
 	font-family: "Courier New", Courier, monospace;
-  text-align: center;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -29,6 +28,7 @@ ul {
   -webkit-box-shadow: 0 8px 6px -6px #111111;
   -moz-box-shadow: 0 8px 6px -6px #111111;
   box-shadow: 0 8px 6px -6px #111111;
+  font-size:40px; 
 }
 
 a {
@@ -45,49 +45,53 @@ div h2 {
 	font-size: 44px;
 }
 
-@media screen and (max-width: 480px){
-	pre  { height:100%; width:100%; background-image: url(3.svg);
+@media screen and (orientation: portrait) {
+ pre  { height:100%; width:100%; background-image: url(3.svg);
 		background-size: cover;
 		opacity: 0.95;
 	}
-	#plist { height:1100px; width:100%; background-image: url(the-lady.jpg);
-		background-size: cover;
+	#plist { height:1100px; width:100%; background-image: url(1.jpg);	
 	}
-	#topnav {font-size: 25px;}
 }
 
-@media screen and (min-width: 481px){
+@media screen and (orientation: landscape) {
+		pre  { height:100%; width:100%; background-image: url(3.svg);
+		background-size: cover;
+		opacity: 0.95;
+	}
+	#plist { height:1100px; width:100%; background-image: url(1.jpg);	
+	}
+}	
+
+@media only screen and (min-width: 43.062em) {
 	pre  { height:100%; width:100%; background-image: url(3.svg);
 		background-size: cover;
 		opacity: 0.95;
 	}
-	#plist { height:1100px; width:100%; background-image: url(the-lady.jpg);
-		background-size: cover;
+	#plist { height:1100px; width:100%; background-image: url(1.jpg);	
 	}
-	#topnav {font-size: 35px;}
-}
-@media screen and (max-width: 800px){
-	pre  { height:100%; width:100%; background-image: url(3.svg);
-		background-size: cover;
-		opacity: 0.95;
-	}
-	#plist { height:1100px; width:100%; background-image: url(the-lady.jpg);
-		background-size: cover;
-	}
-	#topnav {font-size: 35px;}
 }
 
-@media screen and (min-width: 801px){
+@media only screen and (min-width: 64.063em){
 	pre  { height:100%; width:100%; background-image: url(3.svg);
 		background-size: cover;
 		opacity: 0.95;
 	}
-	#plist { height:1100px; width:100%; background-image: url(the-lady.jpg);
-		background-size: cover;
-		background-attachment: fixed;
+	#plist { height:1100px; width:100%; background-image: url(1.jpg);
 	}
-	#topnav {font-size: 55px;}
 }
+
+@media only screen and (min-width: 90.063em){
+	pre  { height:100%; width:100%; background-image: url(3.svg);
+		background-size: cover;
+		opacity: 0.95;
+	}
+	#plist { height:1100px; width:100%; background-image: url(1.jpg);
+	}
+}
+
+
+
 
 .gi-2x{font-size: 2em;}
 .gi-3x{font-size: 3em;}
@@ -121,7 +125,7 @@ section #plist {
 	-webkit-box-shadow: 0 8px 6px -6px #111111;
   -moz-box-shadow: 0 8px 6px -6px #111111;
   box-shadow: 0 8px 6px -6px #111111;
-  padding: 1em 1em 1em 1em;
+  padding: 1em 1em 
 }
 
 .box {
@@ -142,7 +146,7 @@ section #plist {
 	font-size: 26px;
 	padding-top:0.75em;
   color: white;
-  z-index: 5;
+
 }
 
 .box-name{
