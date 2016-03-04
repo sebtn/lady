@@ -3,6 +3,7 @@ html, body{
 	width: 100%;
 	margin:0;
 	padding:0;	
+	font-family: "Lucida Console", Monaco, monospace
 }
 
 pre {
@@ -16,11 +17,10 @@ pre {
 }
 
 ul {
-	font-family: "Courier New", Courier, monospace;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #D3145A;
+  background-color: #000;
   opacity: 0.8;
   position: fixed;
   top: 0;
@@ -33,14 +33,14 @@ ul {
 
 a {
 	display: inline-block;
-	color: #00FFFF;
+	color: #073291;
 	font-weight: 300;
 	text-align: center;
 	text-decoration: none; 
 }
 
 div h2 {
-	color:#F92672;
+	color:#fff;
 	font-weight:500;
 	font-size: 44px;
 }
@@ -51,6 +51,12 @@ div h2 {
 		opacity: 0.65;
 	}
 	#plist { height:1100px; width:100%; background-image: url(1.jpg);	
+	}
+	#tracks .track-title {
+	font-size: 24px;
+	padding:0.75em 0.5em 0.5em 0;
+	margin-left: 2em;
+  color: white;
 	}
 }
 
@@ -66,9 +72,16 @@ div h2 {
 @media only screen and (min-width: 43.062em) {
 	pre  { height:100%; width:100%; background-image: url(3.svg);
 		background-size: cover;
+		background-position: 25%;
 		opacity: 0.65;
 	}
 	#plist { height:1100px; width:100%; background-image: url(1.jpg);	
+	}
+	#tracks .track-title {
+	font-size: 24px;
+	padding:0.75em 0.5em 0.5em 0;
+	margin-left: 1em;
+  color: white;
 	}
 }
 
@@ -79,6 +92,12 @@ div h2 {
 	}
 	#plist { height:1100px; width:100%; background-image: url(1.jpg);
 	}
+	#tracks .track-title {
+	font-size: 24px;
+	padding:0.75em 0.5em 0.5em 0;
+	margin-left: 1em;
+  color: white;
+	}      
 }
 
 @media only screen and (min-width: 90.063em){
@@ -87,6 +106,12 @@ div h2 {
 		opacity: 0.65;
 	}
 	#plist { height:1100px; width:100%; background-image: url(1.jpg);
+	}
+	#tracks .track-title {
+	font-size: 24px;
+	padding:0.75em 0.5em 0.5em 0;
+	margin-left: 1em;
+  color: white;
 	}
 }
 
@@ -105,7 +130,7 @@ div h2 {
 }
 
 .glyphicon-play, .glyphicon-pause {
-	color:#D3145A;
+	color:#073291;
 }
 
 #plist { 
@@ -129,7 +154,7 @@ section #plist {
 	-moz-box-shadow: 0 8px 6px -6px #111111;
 	-webkit-box-shadow: 0 8px 6px -6px #111111;
 	box-shadow: 0 8px 6px -6px #111111;
-	background: rgba(91, 91, 91, 0.7);
+	background: rgba(90, 90, 90, 0.7);
 	border-color: #000000;
 	padding-bottom: 1em;
 	padding-top: 1em;
@@ -139,23 +164,23 @@ section #plist {
 }
 
 #tracks .track-title {
-	font-size: 26px;
-	padding-top:0.75em;
+	font-size: 24px;
+	padding:0.75em 0.5em 0.5em 0;
+	margin-left: 1em;
   color: white;
-
 }
 
 .box-name{
-	-moz-box-shadow: 0 8px 6px -6px #111111;
-	-webkit-box-shadow: 0 8px 6px -6px #111111;
-	box-shadow: 0 8px 6px -6px #111111;;
-	background: rgba(91, 91, 91, 0.7);
+	-moz-box-shadow: 0 10px 6px -6px #111111;
+	-webkit-box-shadow: 0 10px 6px -6px #111111;
+	box-shadow: 0 10px 6px -6px #111111;;
+	background: rgba(90, 90, 90, 0.7);
 	border-color: #000000;
-	padding-bottom: 0.5em;
-	padding-top: 0.5em;
+	padding-bottom: 1em;
 	margin: 8em 0 4em 0;
 	text-align: center;
 }
+
 
 .clear {
     clear:both;
