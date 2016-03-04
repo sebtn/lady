@@ -48,7 +48,7 @@ div h2 {
 @media screen and (orientation: portrait) {
  pre  { height:100%; width:100%; background-image: url(3.svg);
 		background-size: cover;
-		opacity: 0.95;
+		opacity: 0.65;
 	}
 	#plist { height:1100px; width:100%; background-image: url(1.jpg);	
 	}
@@ -57,7 +57,7 @@ div h2 {
 @media screen and (orientation: landscape) {
 		pre  { height:100%; width:100%; background-image: url(3.svg);
 		background-size: cover;
-		opacity: 0.95;
+		opacity: 0.65;
 	}
 	#plist { height:1100px; width:100%; background-image: url(1.jpg);	
 	}
@@ -66,7 +66,7 @@ div h2 {
 @media only screen and (min-width: 43.062em) {
 	pre  { height:100%; width:100%; background-image: url(3.svg);
 		background-size: cover;
-		opacity: 0.95;
+		opacity: 0.65;
 	}
 	#plist { height:1100px; width:100%; background-image: url(1.jpg);	
 	}
@@ -75,7 +75,7 @@ div h2 {
 @media only screen and (min-width: 64.063em){
 	pre  { height:100%; width:100%; background-image: url(3.svg);
 		background-size: cover;
-		opacity: 0.95;
+		opacity: 0.65;
 	}
 	#plist { height:1100px; width:100%; background-image: url(1.jpg);
 	}
@@ -84,14 +84,11 @@ div h2 {
 @media only screen and (min-width: 90.063em){
 	pre  { height:100%; width:100%; background-image: url(3.svg);
 		background-size: cover;
-		opacity: 0.95;
+		opacity: 0.65;
 	}
 	#plist { height:1100px; width:100%; background-image: url(1.jpg);
 	}
 }
-
-
-
 
 .gi-2x{font-size: 2em;}
 .gi-3x{font-size: 3em;}
@@ -122,9 +119,9 @@ div h2 {
 }
 
 section #plist {
-	-webkit-box-shadow: 0 8px 6px -6px #111111;
-  -moz-box-shadow: 0 8px 6px -6px #111111;
-  box-shadow: 0 8px 6px -6px #111111;
+	-webkit-box-shadow: 0 12px 6px -6px #111111;
+  -moz-box-shadow: 0 12px 6px -6px #111111;
+  box-shadow: 0 12px 6px -6px #111111;
   padding: 1em 1em 
 }
 
@@ -132,14 +129,13 @@ section #plist {
 	-moz-box-shadow: 0 8px 6px -6px #111111;
 	-webkit-box-shadow: 0 8px 6px -6px #111111;
 	box-shadow: 0 8px 6px -6px #111111;
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(91, 91, 91, 0.7);
 	border-color: #000000;
 	padding-bottom: 1em;
 	padding-top: 1em;
 	border-radius: 25px;
 	font-color: #fff;
 	margin: 1em 0 1em 0;
-
 }
 
 #tracks .track-title {
@@ -153,14 +149,13 @@ section #plist {
 	-moz-box-shadow: 0 8px 6px -6px #111111;
 	-webkit-box-shadow: 0 8px 6px -6px #111111;
 	box-shadow: 0 8px 6px -6px #111111;;
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(91, 91, 91, 0.7);
 	border-color: #000000;
-	padding-bottom: 1em;
-	padding-top: 1em;
-	margin: 4em 0 2em 0;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	margin: 8em 0 4em 0;
 	text-align: center;
 }
-
 
 .clear {
     clear:both;
