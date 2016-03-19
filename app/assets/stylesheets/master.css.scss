@@ -3,7 +3,9 @@ html, body{
 	width: 100%;
 	margin:0;
 	padding:0;	
-	font-family: "Lucida Console", Monaco, monospace
+	font-family: "Lucida Console", Monaco, monospace;
+	font-color:#fff;
+
 }
 
 pre {
@@ -41,9 +43,10 @@ a {
 
 div h2 {
 	color:#fff;
-	font-weight:500;
+	font-weight:100;
 	font-size: 44px;
 }
+
 
 @media screen and (orientation: portrait) {
  pre  { height:100%; width:100%; background-image: url(3.svg);
@@ -53,10 +56,10 @@ div h2 {
 	#plist { height:1100px; width:100%; background-image: url(1.jpg);	
 	}
 	#tracks .track-title {
-	font-size: 24px;
-	padding:0.75em 0.5em 0.5em 0;
+	font-size: 22px;
+	/*padding:0.75em 0.5em 0.5em 0;
 	margin-left: 2em;
-  color: white;
+  color: white;*/
 	}
 }
 
@@ -78,10 +81,10 @@ div h2 {
 	#plist { height:1100px; width:100%; background-image: url(1.jpg);	
 	}
 	#tracks .track-title {
-	font-size: 24px;
-	padding:0.75em 0.5em 0.5em 0;
+	font-size: 20px;
+	/*padding:0.75em 0.5em 0.5em 0;
 	margin-left: 1em;
-  color: white;
+  color: white;*/
 	}
 }
 
@@ -94,9 +97,9 @@ div h2 {
 	}
 	#tracks .track-title {
 	font-size: 24px;
-	padding:0.75em 0.5em 0.5em 0;
+	/*padding:0.75em 0.5em 0.5em 0;
 	margin-left: 1em;
-  color: white;
+  color: white;*/
 	}      
 }
 
@@ -109,9 +112,9 @@ div h2 {
 	}
 	#tracks .track-title {
 	font-size: 24px;
-	padding:0.75em 0.5em 0.5em 0;
+	/*padding:0.75em 0.5em 0.5em 0;
 	margin-left: 1em;
-  color: white;
+  color: white;*/
 	}
 }
 
@@ -147,25 +150,26 @@ section #plist {
 	-webkit-box-shadow: 0 12px 6px -6px #111111;
   -moz-box-shadow: 0 12px 6px -6px #111111;
   box-shadow: 0 12px 6px -6px #111111;
-  padding: 1em 1em 
+  padding: 15em 5em;
 }
 
 .box {
 	-moz-box-shadow: 0 8px 6px -6px #111111;
 	-webkit-box-shadow: 0 8px 6px -6px #111111;
 	box-shadow: 0 8px 6px -6px #111111;
-	background: rgba(90, 90, 90, 0.7);
+	background: rgba(120, 120, 120, 0.7);
 	border-color: #000000;
-	padding-bottom: 1em;
-	padding-top: 1em;
-	border-radius: 25px;
+	/*padding-bottom: 1em;
+	padding-top: 1em*/;
+	border-radius: 5px;
 	font-color: #fff;
 	margin: 1em 0 1em 0;
+	overflow: hidden;
 }
 
 #tracks .track-title {
-	font-size: 24px;
-	padding:0.75em 0.5em 0.5em 0;
+	font-size: 20px;
+/*	padding:0.75em 0.5em 0.5em 0;*/
 	margin-left: 1em;
   color: white;
 }
