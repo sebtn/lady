@@ -3,7 +3,7 @@ html, body{
 	width: 100%;
 	margin:0;
 	padding:0;	
-	font-family: "Lucida Console", Monaco, monospace;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-color:#fff;
 
 }
@@ -47,6 +47,9 @@ div h2 {
 	font-size: 44px;
 }
 
+div h3 {
+	color:#fff;
+}
 
 @media screen and (orientation: portrait) {
  pre  { height:100%; width:100%; background-image: url(3.svg);
@@ -136,14 +139,18 @@ div h2 {
 	color:#073291;
 }
 
-#plist { 
+section{ 
 	background-repeat:no-repeat;
 	background-position: center;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   -ms-background-size:cover;
-  outline: 1px solid black;
+  outline: 6px solid black;
+	-webkit-box-shadow: 0 12px 6px -6px #111111;
+  -moz-box-shadow: 0 12px 6px -6px #111111;
+  box-shadow: 0 12px 6px -6px #111111;  
+
 }
 
 section #plist {
@@ -181,8 +188,23 @@ section #plist {
 	background: rgba(90, 90, 90, 0.7);
 	border-color: #000000;
 	padding-bottom: 1em;
-	margin: 8em 0 4em 0;
+	margin: 4em 0 4em 0;
 	text-align: center;
+}
+
+.front {
+	height:90px;
+	width: 90px;
+}
+
+img {
+	margin:1.25em 0 0 0 ;
+}
+
+.footer {
+	background-color: white;
+	min-height:300px;
+
 }
 
 
