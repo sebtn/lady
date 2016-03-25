@@ -3,7 +3,7 @@ html, body{
 	width: 100%;
 	margin:0;
 	padding:0;	
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-family: "Lucida Console", Monaco, monospace;
 	font-color:#fff;
 
 }
@@ -47,7 +47,7 @@ div h2 {
 	font-size: 44px;
 }
 
-div h3 {
+div h1,  div h3, div h4 {
 	color:#fff;
 }
 
@@ -59,7 +59,7 @@ div h3 {
 	#plist { height:1100px; width:100%; background-image: url(1.jpg);	
 	}
 	#tracks .track-title {
-	font-size: 22px;
+	font-size: 20px;
 	/*padding:0.75em 0.5em 0.5em 0;
 	margin-left: 2em;
   color: white;*/
@@ -89,6 +89,10 @@ div h3 {
 	margin-left: 1em;
   color: white;*/
 	}
+	.img-responsive {
+		max-width:200px;
+		max-height:200px;
+	}	
 }
 
 @media only screen and (min-width: 64.063em){
@@ -96,14 +100,18 @@ div h3 {
 		background-size: cover;
 		opacity: 0.65;
 	}
-	#plist { height:1100px; width:100%; background-image: url(1.jpg);
+	#plist {width:100%; background-image: url(1.jpg);
 	}
 	#tracks .track-title {
 	font-size: 24px;
 	/*padding:0.75em 0.5em 0.5em 0;
 	margin-left: 1em;
   color: white;*/
-	}      
+	}  
+	.img-responsive {
+		max-width:200px;
+		max-height:200px;
+	}	    
 }
 
 @media only screen and (min-width: 90.063em){
@@ -111,7 +119,7 @@ div h3 {
 		background-size: cover;
 		opacity: 0.65;
 	}
-	#plist { height:1100px; width:100%; background-image: url(1.jpg);
+	#plist {width:100%; background-image: url(1.jpg);
 	}
 	#tracks .track-title {
 	font-size: 24px;
@@ -119,6 +127,10 @@ div h3 {
 	margin-left: 1em;
   color: white;*/
 	}
+	.img-responsive {
+		max-width:600px;
+		max-height:600px;
+	}	
 }
 
 .gi-2x{font-size: 2em;}
@@ -127,21 +139,21 @@ div h3 {
 .gi-5x{font-size: 5em;}
 
 .glyphicon {
-	border: 0px;
+	border: none;
 	background: none;
 }
 
 .glyphicon:focus {
-  outline: none;
+  outline-color: none;
 }
 
 .glyphicon-play, .glyphicon-pause {
-	color:#073291;
+	color:white;
 }
 
-section{ 
+section { 
 	background-repeat:no-repeat;
-	background-position: center;
+	background-position: center fixed;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -157,7 +169,7 @@ section #plist {
 	-webkit-box-shadow: 0 12px 6px -6px #111111;
   -moz-box-shadow: 0 12px 6px -6px #111111;
   box-shadow: 0 12px 6px -6px #111111;
-  padding: 15em 5em;
+  padding: 2em 2em;
 }
 
 .box {
