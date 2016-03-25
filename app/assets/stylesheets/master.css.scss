@@ -63,7 +63,14 @@ div h1,  div h3, div h4 {
 	/*padding:0.75em 0.5em 0.5em 0;
 	margin-left: 2em;
   color: white;*/
-	}
+	}	
+	.container {
+		text-align: center;
+	}	
+	img {
+		max-width:200px;
+		max-height:200px;
+	}	
 }
 
 @media screen and (orientation: landscape) {
@@ -73,7 +80,13 @@ div h1,  div h3, div h4 {
 	}
 	#plist { height:1100px; width:100%; background-image: url(1.jpg);	
 	}
+	img {
+		max-width:200px;
+		max-height:200px;
+	}	
 }	
+
+
 
 @media only screen and (min-width: 43.062em) {
 	pre  { height:100%; width:100%; background-image: url(3.svg);
@@ -89,7 +102,7 @@ div h1,  div h3, div h4 {
 	margin-left: 1em;
   color: white;*/
 	}
-	.img-responsive {
+	img{
 		max-width:200px;
 		max-height:200px;
 	}	
@@ -108,9 +121,9 @@ div h1,  div h3, div h4 {
 	margin-left: 1em;
   color: white;*/
 	}  
-	.img-responsive {
-		max-width:200px;
-		max-height:200px;
+	img {
+		max-width:400px;
+		max-height:400px;
 	}	    
 }
 
@@ -127,7 +140,7 @@ div h1,  div h3, div h4 {
 	margin-left: 1em;
   color: white;*/
 	}
-	.img-responsive {
+	img{
 		max-width:600px;
 		max-height:600px;
 	}	
@@ -169,7 +182,7 @@ section #plist {
 	-webkit-box-shadow: 0 12px 6px -6px #111111;
   -moz-box-shadow: 0 12px 6px -6px #111111;
   box-shadow: 0 12px 6px -6px #111111;
-  padding: 2em 2em;
+  padding: 2em 0 2em 0;
 }
 
 .box {
