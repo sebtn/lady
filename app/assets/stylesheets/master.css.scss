@@ -157,6 +157,7 @@ div h1,  div h3, div h4 {
 
 .glyphicon:focus {
   outline-color: none;
+  outline: none;
 }
 
 .glyphicon-play, .glyphicon-pause {
@@ -215,6 +216,9 @@ section #plist {
 	margin: 4em 0 4em 0;
 	text-align: center;
 }
+#btn1 {
+	outline: none;
+}
 
 .front {
 	height:90px;
@@ -228,6 +232,11 @@ img {
 .footer {
 	background-color: black;
 	height:auto;
+}
+
+.builder {
+	padding-top:1em;
+	color:white;
 }
 
 .clear {
