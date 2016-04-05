@@ -40,13 +40,14 @@ a {
 	text-decoration: none; 
 }
 
-div h2 {
-	color:#fff;
+.titled-EP  {
+	color:white;
 	font-weight:100;
 	font-size: 44px;
+  font-family: "Courier New", Courier, monospace !important;
 }
 
-div h1,  div h3, div h4 {
+div h1, div h3, div h4 {
 	color:#fff;
 }
 
@@ -59,9 +60,6 @@ div h1,  div h3, div h4 {
 	}
 	#tracks .track-title {
 	font-size: 20px;
-	/*padding:0.75em 0.5em 0.5em 0;
-	margin-left: 2em;
-  color: white;*/
 	}	
 	.container {
 		text-align: center;
@@ -85,8 +83,6 @@ div h1,  div h3, div h4 {
 	}	
 }	
 
-
-
 @media only screen and (min-width: 43.062em) {
 	pre  { height:100%; width:100%; background-image: url(3.svg);
 		background-size: cover;
@@ -97,9 +93,6 @@ div h1,  div h3, div h4 {
 	}
 	#tracks .track-title {
 	font-size: 20px;
-	/*padding:0.75em 0.5em 0.5em 0;
-	margin-left: 1em;
-  color: white;*/
 	}
 	img{
 		max-width:200px;
@@ -116,9 +109,6 @@ div h1,  div h3, div h4 {
 	}
 	#tracks .track-title {
 	font-size: 24px;
-	/*padding:0.75em 0.5em 0.5em 0;
-	margin-left: 1em;
-  color: white;*/
 	}  
 	img {
 		max-width:400px;
@@ -135,9 +125,6 @@ div h1,  div h3, div h4 {
 	}
 	#tracks .track-title {
 	font-size: 24px;
-	/*padding:0.75em 0.5em 0.5em 0;
-	margin-left: 1em;
-  color: white;*/
 	}
 	img{
 		max-width:600px;
@@ -175,7 +162,6 @@ section {
 	-webkit-box-shadow: 0 12px 6px -6px #111111;
   -moz-box-shadow: 0 12px 6px -6px #111111;
   box-shadow: 0 12px 6px -6px #111111;  
-
 }
 
 section #plist {
@@ -191,8 +177,6 @@ section #plist {
 	box-shadow: 0 8px 6px -6px #111111;
 	background: rgba(120, 120, 120, 0.7);
 	border-color: #000000;
-	/*padding-bottom: 1em;
-	padding-top: 1em*/;
 	border-radius: 5px;
 	font-color: #fff;
 	margin: 1em 0 1em 0;
@@ -201,7 +185,6 @@ section #plist {
 
 #tracks .track-title {
 	font-size: 20px;
-/*	padding:0.75em 0.5em 0.5em 0;*/
 	margin-left: 1em;
   color: white;
 }
